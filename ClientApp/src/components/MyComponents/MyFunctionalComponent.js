@@ -25,7 +25,7 @@ const MyFunctionalComponent = (props) => {
     };
 
     const showDetails = (telephone) => {
-        alert('Name: ${props.name ? props.name : "John"} | Age: ${age} | Telephone: {telephone}');
+        alert(`Name: ${props.name ? props.name : "John"} | Age: ${age} | Telephone: ${telephone}`);
     };
 
     return (

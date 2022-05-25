@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { MyClassComponent } from './components/MyComponents/MyClassComponent';
 import MyFunctionalComponent from './components/MyComponents/MyFunctionalComponent';
+import LibraryComponent from './components/MyComponents/LibraryComponent';
 import './custom.css'
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Route path='/fetch-data' component={FetchData} />
         <Route path='/myClassComponent' component={MyClassComponent} />
         <Route path='/myFunctionalComponent' component={MyFunctionalComponent} /> 
+            <Route path='/library' component={LibraryComponent} />
       </Layout>
     );
   }
